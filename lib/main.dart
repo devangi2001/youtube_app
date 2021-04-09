@@ -5,6 +5,7 @@ import 'package:youtubeee/library.dart';
 import 'package:youtubeee/notification.dart';
 
 void main() => runApp(MaterialApp(
+  debugShowCheckedModeBanner: false,
   home: MyApp(),
 ));
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text('YouTube',style: TextStyle(color:Colors.black,fontSize: 27),),
+          title: Text('YouTube',style: TextStyle(color:Colors.black,fontSize: 17),),
           actions: <Widget>[
             IconButton(icon: Icon(Icons.cast, color: Colors.black,),
               onPressed: () {},),

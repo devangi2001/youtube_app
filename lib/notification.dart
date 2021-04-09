@@ -9,7 +9,7 @@ class Notify extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text('YouTube',style: TextStyle(color:Colors.black,fontSize: 27),),
+          title: Text('YouTube',style: TextStyle(color:Colors.black,fontSize: 17),),
           actions: <Widget>[
             IconButton(icon: Icon(Icons.cast, color: Colors.black,),
               onPressed: () {},),
