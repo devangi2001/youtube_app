@@ -49,17 +49,89 @@ class MyApp extends StatelessWidget {
               elevation: 10,
               child: Image.asset("./assets/1.jpg"),
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                IconButton(icon: Icon(Icons.account_circle, color: Colors.black,),
+                  onPressed: () {},),
+                Expanded(
+                  child: Column(
+                    children: <Widget>[
+                      Text("3 habbits that improved my student life at bits",style: TextStyle(fontSize: 20, fontWeight:FontWeight.bold)),
+                      Text("curious Harrish. 1M views .2days ago",style: TextStyle(fontSize: 15)),
+                    ],
+                  ),
+                ),
+
+                IconButton(icon: Icon(Icons.more_vert_outlined, color: Colors.black,),
+                  onPressed: () {},),
+              ],
+            ),
             Card(
               elevation: 10,
               child: Image.asset("./assets/2.jpg"),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                IconButton(icon: Icon(Icons.account_circle, color: Colors.black,),
+                  onPressed: () {},),
+                Expanded(
+                  child: Column(
+                    children: <Widget>[
+                      Text("Friends with benefits",style: TextStyle(fontSize: 20, fontWeight:FontWeight.bold)),
+                      Text("hasley. 1M views .2days ago",style: TextStyle(fontSize: 15)),
+                    ],
+                  ),
+                ),
+
+                IconButton(icon: Icon(Icons.more_vert_outlined, color: Colors.black,),
+                  onPressed: () {},),
+              ],
             ),
             Card(
               elevation: 10,
               child: Image.asset("./assets/3.jpg"),
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                IconButton(icon: Icon(Icons.account_circle, color: Colors.black,),
+                  onPressed: () {},),
+                Expanded(
+                  child: Column(
+                    children: <Widget>[
+                      Text("Sundar Pichai story",style: TextStyle(fontSize: 20, fontWeight:FontWeight.bold)),
+                      Text("whyy. 1M views .2days ago",style: TextStyle(fontSize: 15)),
+                    ],
+                  ),
+                ),
+
+                IconButton(icon: Icon(Icons.more_vert_outlined, color: Colors.black,),
+                  onPressed: () {},),
+              ],
+            ),
             Card(
               elevation: 10,
               child: Image.asset("./assets/4.jpg"),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                IconButton(icon: Icon(Icons.account_circle, color: Colors.black,),
+                  onPressed: () {},),
+                Expanded(
+                  child: Column(
+                    children: <Widget>[
+                      Text("team animals",style: TextStyle(fontSize: 20, fontWeight:FontWeight.bold)),
+                      Text("Abhishek Upmanyu. 1.1M views .3days ago",style: TextStyle(fontSize: 15)),
+                    ],
+                  ),
+                ),
+
+                IconButton(icon: Icon(Icons.more_vert_outlined, color: Colors.black,),
+                  onPressed: () {},),
+              ],
             ),
           ],
         ),),
